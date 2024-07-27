@@ -1,0 +1,19 @@
+//terdapat ke sistemasi an pada program terdapat pada Langkah ke 5 
+berikut adalah tutorial cara mendemo kan aplikasi 
+
+1. import database ke dalam phpMyAdmin buatlah database Bernama laravel / laravel_db -> cek kedalam file .env apakah database sudah sesuai atau belum
+2. jalankan program dengan ketik php artisan serve
+3. ketik pada browser 127.0.0.1/home maka akan masuk kehalaman dashboard. jalankan program
+4. masukkan alternatif dan juga kriteria -> jika sudah dipenuhi alternatif dan kriteria maka hasil akan bisa ditampilkan 
+//namun batas programnya hanya sampai preferensi
+
+jika ingin menyesuaikan dengan alternatif dan kriteria yang sama kita harus menginput ulang program . pada file App/Https/Controller/BobotKriteriaController.php
+
+5. sesuaikan pada $preferensimatrix hasil yang didapat ke dalam program dengan cara mencari dengan manual dillihat oleh dashboard preferensi
+// masalah pada BobotKriteria sudah terselesaikan
+
+6. salin $preferensimatrix pada App/Https/Controller/BobotKriteriaController.php
+kedalam App/Https/Controller/BobotKriteriaMatrixController.php
+selanjutnya menabahkan Hd di code $preferensimatrix dengan menjumlah kan kolom F1,F2,F3,F4,F5
+
+7.maka program akan berjalan.. 
